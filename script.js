@@ -2,7 +2,6 @@ const form = document.getElementById('form');
 const search = document.getElementById('search');
 const result = document.getElementById('result');
 
-
 function searchSongs(term){
     fetch(`https://api.lyrics.ovh/suggest/${term}`)
         .then(res => res.json())
@@ -27,8 +26,6 @@ function showSongs(data){
     });
     result.innerHTML = `${output}`;
 }
-
-
 form.addEventListener('submit', e =>{
     e.preventDefault();
     const searchText = search.value.trim();
