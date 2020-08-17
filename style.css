@@ -1,0 +1,94 @@
+body{
+    background-color: #13141b;
+    color: #ffffff;
+    background-image: url(images/bg-image.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+}
+
+.form-control{
+    background-color:rgba(255, 255, 255, 0.2);
+    padding: 22px;
+    border: none;
+    border-radius: 25px;
+}
+.btn{
+    border-radius: 1.5rem;
+    padding: 9px 20px;
+}
+
+.btn-privious{
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+.navbar-toggler {
+    border: none;
+}
+.search-box{
+    position: relative;
+}
+.search-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+.single-result{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    width: 700px;
+}
+
+
+/* 
+ === Fancy results ===
+            <div class="search-result col-md-8 mx-auto py-4">
+                <!-- single result -->
+                <div class="single-result row align-items-center my-3 p-3">
+                    <div class="col-md-9">
+                        <h3 class="lyrics-name">Purple Noon</h3>
+                        <p class="author lead">Album by <span>Washed Out</span></p>
+                    </div>
+                    <div class="col-md-3 text-md-right text-center">
+                        <button class="btn btn-success">Get Lyrics</button>
+                    </div>
+                </div>
+                <!-- ./ single result -->
+
+                <!-- single result -->
+                <div class="single-result row align-items-center my-3 p-3">
+                    <div class="col-md-9">
+                        <h3 class="lyrics-name">Purple Noon</h3>
+                        <p class="author lead">Album by <span>Washed Out</span></p>
+                    </div>
+                    <div class="col-md-3 text-md-right text-center">
+                        <button class="btn btn-success">Get Lyrics</button>
+                    </div>
+                </div>
+                <!-- ./ single result -->
+                <!-- single result -->
+                <div class="single-result row align-items-center my-3 p-3">
+                    <div class="col-md-9">
+                        <h3 class="lyrics-name">Purple Noon</h3>
+                        <p class="author lead">Album by <span>Washed Out</span></p>
+                    </div>
+                    <div class="col-md-3 text-md-right text-center">
+                        <button class="btn btn-success">Get Lyrics</button>
+                    </div>
+                </div>
+                <!-- ./ single result -->
+                <!-- single result -->
+                <div class="single-result row align-items-center my-3 p-3">
+                    <div class="col-md-9">
+                        <h3 class="lyrics-name">Purple Noon</h3>
+                        <p class="author lead">Album by <span>Washed Out</span></p>
+                    </div>
+                    <div class="col-md-3 text-md-right text-center">
+                        <button class="btn btn-success">Get Lyrics</button>
+                    </div>
+                </div>
+                <!-- ./ single result -->
+            </div>
+
+*/
